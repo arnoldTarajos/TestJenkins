@@ -2,6 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class TesBClass {
 
@@ -12,6 +13,7 @@ public class TesBClass {
 
     @Test
     public void testEmpty() {
+        assertTrue(Boolean.FALSE);
         assertNotNull(null);
     }
 }
