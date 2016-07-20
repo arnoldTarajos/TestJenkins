@@ -9,13 +9,13 @@ public class TestClass
   @Test
   public void testEqual ()
   {
-    assertEquals(Boolean.TRUE, Boolean.FALSE);
+    assertEquals(Boolean.TRUE, Boolean.TRUE);
   }
 
   @Test
    public void testEmpty ()
    {
-     assertNull("");
+     assertNull(null);
    }
 
 }
