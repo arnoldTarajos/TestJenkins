@@ -4,7 +4,7 @@ import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-public class TesBClass {
+public class TestB {
 
     @Test
     public void testNotEqual() {
